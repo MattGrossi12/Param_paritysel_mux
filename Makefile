@@ -12,7 +12,7 @@ VERILOG_FILES = \
 
 # Comando de compilação pelo cvc:
 cvc:
-	cvc64 +acc+2 +parallel2=on $(VERILOG_FILES)
+	cvc64 +acc+2 +large +parallel2=on $(VERILOG_FILES)
 	./cvcsim
 	rm -f cvcsim
 
