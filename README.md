@@ -12,8 +12,5 @@ If you've made it this far, I'm very grateful to you
 
 ### Top view ilustration:
 
-
 ![Diagrama do Bloco](topview.puml)
 
-# Teste
->>>>>>> c1f8d26 (First Commit)
