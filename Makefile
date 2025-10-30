@@ -1,6 +1,6 @@
 # Nome do executável de simulação
 SIM = sim.vvp
-
+LD_LIBRARY_PATH="" gtkwave dump.fst
 # Variáveis de Configuração
 TOP_MODULE   = Param_paritysel_mux
 TESTBENCH = testbench
@@ -12,7 +12,16 @@ VERILOG_FILES = \
 
 # Comando de compilação pelo cvc:
 cvc:
-	cvc64 +large +fst+parallel3=on $(VERILOG_FILES)
+	cvc64 +acc+2 +parallel2=on $(VERILOG_FILES)
+	./cvcsim
+	rm -f cvcsim
+
+#+fstvars 
+fst:
+	./cvcsim
+	rm -f cvcsim
+# cvc64 +large $(VERILOG_FILES)
+# cvc64 +large +fst+parallel2=on $(VERILOG_FILES)
 # cvc64 +interp +fst+parallel2=on $(VERILOG_FILES)
 
 # Comando de compilação pelo icarus:

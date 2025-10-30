@@ -5,8 +5,8 @@
 (* src = "Param_paritysel_mux.v:2.1-20.10" *)
 module Param_paritysel_mux(sel, data_a, data_b, data_out);
   (* src = "Param_paritysel_mux.v:7.18-7.21" *)
-  input [4:0] sel;
-  wire [4:0] sel;
+  input [3:0] sel;
+  wire [3:0] sel;
   (* src = "Param_paritysel_mux.v:8.24-8.30" *)
   input [7:0] data_a;
   wire [7:0] data_a;

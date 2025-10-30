@@ -4,7 +4,7 @@ module Param_paritysel_mux #(
     parameter T_WIDTH = (WIDTH-1)
 )(
 //Input:
-input wire [4:0] sel,
+input wire [3:0] sel,
 input wire [T_WIDTH:0] data_a,
 input wire [T_WIDTH:0] data_b,
 //Output:

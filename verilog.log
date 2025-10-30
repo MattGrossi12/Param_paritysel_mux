@@ -2,12 +2,9 @@ OSS_CVC_7.00b-x86_64-rhel6x of 07/07/14 (Linux-elf).
 Copyright (c) 1991-2014 Tachyon Design Automation Corp.
   All Rights reserved.  Licensed software subject to prohibitions and
   restrictions.  See OSS CVC artistic license included with release.
-Today is Wed Oct 29 16:27:24 2025.
-Elaborating source file "Param_paritysel_mux.v"
-Elaborating source file "testbench.sv"
+Today is Thu Oct 30 14:11:40 2025.
 Highest level modules:
 testbench
 
-  EXECUTABLE SAVED TO 'cvcsim'.
-
-End of OSS_CVC_7.00b-x86_64-rhel6x at Wed Oct 29 16:27:24 2025 (elapsed 0.2 seconds).
+Halted at location **testbench.sv(44) time 210000 ps from call to $finish.
+  There were 0 error(s), 0 warning(s), and 3 inform(s).
