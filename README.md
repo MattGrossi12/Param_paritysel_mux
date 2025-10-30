@@ -1,6 +1,4 @@
 # Param_paritysel_mux
-
-# Param_paritysel_mux
 A simple project, just to pratice and increase my habilities on Digital VLSI Systems
 
 ## A parametrizable parity sel mux to apply in some circuits.
