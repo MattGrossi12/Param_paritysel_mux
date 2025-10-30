@@ -10,5 +10,7 @@ If you've made it this far, I'm very grateful to you
 
 ### Top view ilustration:
 
-![Diagrama do Bloco](https://github.com/MattGrossi12/Param_paritysel_mux/blob/main/top_ilustration.png)
+![Top-view](https://github.com/MattGrossi12/Param_paritysel_mux/blob/main/top_ilustration.png)
 
+### Block Diagram:
+![Diagram](https://github.com/MattGrossi12/Param_paritysel_mux/blob/main/diagram.png)
