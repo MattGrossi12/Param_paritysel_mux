@@ -1,0 +1,39 @@
+@startuml
+ 
+scale 500 width
+scale 500 height
+ 
+package "Block Top-View"{
+Node RTL_1 [<size:20>                            </size>
+<size:20>         Parity_Sel         </size>
+<size:20>                            </size>
+]
+
+Node RTL_2 [
+     <size:20>                           </size>
+     <size:20>         Param_mux         </size>
+     <size:20>                           </size>
+]
+
+ 
+'--------------------------------------------------
+'Lista de entradas:
+archimate #PaleGreen "sel [4:0]" as input_1
+archimate #PaleGreen "data_a [WIDTH:0]" as input_2
+archimate #PaleGreen "data_b [WIDTH:0]" as input_3
+'--------------------------------------------------
+'Lista de saídas:
+archimate #Application "data_out [WIDTH:0]" as output_1
+'--------------------------------------------------
+'Conexões entradas:
+input_1 --|> RTL_1
+input_2 --|> RTL_2
+input_3 --|> RTL_2
+'--------------------------------------------------
+'Conexão intermediária:
+RTL_1 --|> RTL_2
+'Conexões saídas:
+RTL_2 --|> output_1
+'--------------------------------------------------
+}
+@enduml

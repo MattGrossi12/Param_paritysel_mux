@@ -1,0 +1,20 @@
+# Lê o arquivo 
+read_verilog Param_paritysel_mux.v
+
+# Define o módulo top-level
+hierarchy -check -top Param_paritysel_mux
+
+# Realiza a síntese genérica
+synth -flatten
+
+# Mapeia para células lógicas básicas (evita mux)
+techmap -map +/techmap.v
+
+# Gera o diagrama lógico
+show -format dot -prefix diagram
+
+# Exporta netlist em JSON
+write_json netlist.json
+
+# Exporta Verilog pós-mapeamento
+write_verilog netlist.v
