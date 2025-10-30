@@ -12,5 +12,5 @@ If you've made it this far, I'm very grateful to you
 
 ### Top view ilustration:
 
-![Diagrama do Bloco](topview.puml)
+![Diagrama do Bloco](https://github.com/MattGrossi12/Param_paritysel_mux/blob/main/top_ilustration.png)
 
